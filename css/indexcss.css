@@ -1,0 +1,173 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+
+body{
+  background-color: #00a4e043;
+ }
+
+ 
+#logobillede {
+ width: 140px;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ padding: 1%;
+ }
+
+ form{
+ background-color: #00a4e084;
+ font-family: 'swap';
+ color: #ffffff;
+ display: flex;
+ justify-content: end;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ padding-right: 2%;
+ }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ header{
+  /* position: fixed; */
+  top: 50px;
+  background-color: #00a4e084;
+  background-blend-mode: color-dodge;
+  display: flex;
+  justify-content: end;
+ }
+
+ /**Navigationsbaren**/
+ header .navbar ul {
+  list-style: none;
+  font-family: swap;
+  font-weight: 50px;
+  color: #ffffff;
+}
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+header .navbar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px;
+  color: #31302f;
+  display: block;
+}
+header .navbar ul li a:hover {
+  background-color: rgb #EF7916;
+  color: #EF7916;
+}
+header .navbar ul li ul {
+  position: absolute;
+  left: 0%;
+  width: 320px;
+  background: #ffffffe5;
+  display: none;
+}
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid #EF7916;
+}
+header .navbar ul li ul li ul {
+  left: 200px;
+  top:0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: block;
+}
+#menu-bar{
+  display: none;
+ }
+#menu-bar :checked .navbar{
+  display: block;}
+
+ 
+article {
+  color: #31302f;
+  font-family:'swap';
+  font-size: 18px;
+  float: left;
+  padding: 30px;
+  width: 80%;
+}
+
+section{
+  display: flex;
+  align-items: center;
+}
+
+#Forsidebillede{
+  width: 50%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/**3 overskrifter**/
+    h1{
+    font-family: 'swap';
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EF7916 ;
+    background-color: #00a4e036;
+    }
+ 
+  h2{
+    font-family: 'swap';
+    color: #402006da;
+    font-size: xx-large;
+    margin-top: 2%;
+    }
+  h3{
+    font-family: 'swap';
+    color: #402006da;
+    font-size: xx-large;
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    background-color: #00a4e059;
+    }
+
+
+/**3 Artikel billeder**/
+  #Opstartdinløbetræning{
+    width: 30%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  
+ #Sådanundgårduskader{
+    width: 30%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+ }
+  
+  #Debedsteløbeture{
+    width: 30%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+footer {
+background-color: #00a4e055;
+padding: 10px;
+margin-top: 5%;
+display: flex;
+justify-content: space-between;
+text-align: center;
+color: rgb(0, 0, 0);
+}
