@@ -4,13 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SKRIV-TITEL-HER</title>
-  <link rel="stylesheet" href="css/css.css">
+  <title>RunSmart</title>
+  <link rel="stylesheet" href="css/indexcss.css">
 </head>
+
 <body>
-  <main>
-    ... Indhold her ...
-  </main>
-  <script src="js/js.js"></script>
+  <form action="/action_page.php">
+    <label for="search">Søg:</label>
+    <input type="search" id="search" name="search">
+  </form>
+  <h1>
+    <img id=logobillede src="images/webunivers logo final.png" alt="logobillede">
+    RunSmart
+  </h1> 
+  <header>
+    <!--Navigationsbaren-->
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar"></label>
+    <nav class="navbar"> 
+      <ul>
+        <li><a href="#">Om Os</a>
+          <ul> 
+            <li><a href="#">Personerne bag</a></li> 
+            <li><a href="#">FQA</a></li> 
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        <li><a href="#">Træningsplaner</a></li>
+        <li><a href="#">RunSmart: Løbeklub</a>
+      </ul>
+    </nav>
+  </header>
+    <!--Import fra google font-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    
+  <section>
+      <img id="Forsidebillede" src="images/Forsidebillede.jpg" alt="Forsidebillede">
+    <article class="Velkommen">
+      <h2> Velkommen!</h2>
+     <p>Til et univers, hvor studieliv og løb går hånd i hånd og hvor vi hjælper dig med at finde tid til både bøger, venner og kilometer.</p>
+     <p>At være studerende kan være en udfordring. Mellem forelæsninger, gruppearbejde og eksamenslæsning er det let at føle, at der ikke er tid til meget andet – især træning!</p> 
+     <p>Her hos RunSmart forstår vi, hvor svært det kan være at finde balancen mellem studie og velvære.</p>
+     <p>Vi har samlet de bedste tips, tricks og inspiration til, hvordan du som studerende kan få løb ind i din travle hverdag. Uanset om du er nybegynder eller erfaren løber, finder du råd om alt fra effektive træningsrutiner til forebyggelse af skader, motivation og hvordan du kan bruge løb som en måde at stresse af og forbedre dit fokus.</p>
+     <p>Vores artikler herunder afspejler nogle af de største interesser og udfordringer som vores læsere har efterspurgt på magasinet. Du er velkommen til at læse dem og give os din mening, samt kontakte os hvis der er andet du ønsker skrevet om!</p>
+    </article>
+  </section>
+  <h3>
+    Ugens Artikler
+  </h3>
+  <div>
+    <a href="Artikel1.html"><img src="images/Opstartdinløbetræning.jpg" alt="Opstartdinløbetræning" id="Opstartdinløbetræning">
+    <a href="Artikel2.html"><img src="images/Sådanundgårduskader.jpg" alt="Sådanundgårduskader" id="Sådanundgårduskader">
+    <a href="Artikel3.html"><img src="images/Debedsteløbeture.jpg" alt="Debedsteløbeture" id="Debedsteløbeture">
+    </a>
+  </div>
 </body>
+<footer>
+  <p>Email: Kontakt@RunSmart.com</p>
+  <p>Instagram: RunSmart_Runningmagazine</p>
+  <p>Facebook: RunSmart_Running</p>
+</footer>
 </html>
