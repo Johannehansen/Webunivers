@@ -1,0 +1,127 @@
+body{
+    background-color: #00a4e055;
+    }
+
+   #logobillede {
+    width: 100px;
+    height: auto;
+   }
+
+   header{
+    /* position: fixed; */
+    top: 50px;
+    background-color: #00a4e055;
+    display: flex;
+    justify-content: space-evenly;
+   }
+   a:link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration-color: #000000;
+   }
+
+   
+  /* To klummer ved siden af hinanden */
+   .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Højre klumme*/
+  .column.side {
+    width: 22%;
+    height: 1100px;
+    margin-top: 10%;
+    background-color: #00a4e098;
+  }
+
+
+   /* Midter klumme */
+   .column.middle {
+    width: 50%;
+    font-family: 'swap';
+    font-size: large;
+    font-weight: 300;
+    color: #31302f;
+  }
+  
+   .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*Sidens overskrifter*/
+  h1{
+    font-family: 'swap';
+    font-size: 400%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: #EF7916;
+    }
+
+  h2{
+    font-size: 50px;
+    font-family: 'swap';
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    }
+ 
+  h3{
+    font-size: larger;
+    display: flex;
+    justify-content: start;
+    }
+
+  #Løbere{
+  width: 100%;
+  height: auto;
+  }
+ 
+  /*Kort effekt*/
+.card {
+    height:100%;
+    background-color: #ef7816;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #31302f;
+    font-family: 'swap';
+}
+
+/*Link billeder*/
+
+#Spisdigklar{
+    width: 250px;
+    height: auto;
+    margin-bottom: 25%;
+}
+
+#Sådanundgårduskader{
+    width: 250px;
+    height: auto;
+    margin-bottom: 25%;
+}
+
+#Debedsteløbeture{
+    width: 250px;
+    height: auto;
+}
+    
+footer {
+    background-color: #00a4e055;
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }

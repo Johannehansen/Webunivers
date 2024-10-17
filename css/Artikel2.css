@@ -1,0 +1,100 @@
+body{
+    background-color: #ef781662;
+    font-family: 'swap';
+    font-size: large;
+    }
+
+   #logobillede {
+    width: 100px;
+    height: auto;
+   }
+
+   header{
+    /* position: fixed; */
+    top: 10px;
+    background-color: #00a4e0ab;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   /*Til at gøre sidens links usynlige*/
+
+   a:link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   h1{
+    font-family: 'swap';
+    font-size: 400%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: #EF7916;
+    }
+
+   h2{
+    font-size: 50px;
+    font-family: 'swap';
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0%;
+    background-color: #ef781676;
+    padding-top: 2%;
+    }
+
+/*to klummer ved siden af hinanden*/
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    margin-left: 2%;
+    background-color: #ef781632;
+    height: 930px;
+    }
+
+#GodeRåd{
+    width: 600px;
+    height: auto;
+    margin-left: 0%;
+    }
+
+#TempoAfstand{
+    width: 600px;
+    height: auto;
+    }
+
+#SkadetKvinde{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+   
+    #Korrektudstyr{
+        flex: start;
+        margin-right: 45%;
+    }
+
+  footer {
+    background-color: #00a4e055;
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }

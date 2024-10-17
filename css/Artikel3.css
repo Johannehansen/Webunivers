@@ -1,0 +1,91 @@
+body{
+    background-color: #00a4e055;
+    }
+
+#logobillede {
+    width: 100px;
+    height: auto;
+    }
+
+header{
+    /* position: fixed; */
+    top: 10px;
+    background-color: #00a4e055;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+   a:link{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+/*Sidens overskrifter*/
+   h1{
+    font-family: 'swap';
+    font-size: 400%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: #EF7916;
+    }
+    
+    h2{
+    font-size: 50px;
+    font-family: 'swap';
+    display: flex;
+    justify-content: center;
+    color:#EF7916;
+    }
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-color: #00a4e08f;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    }
+
+article{
+    font-family: 'swap';
+    font-display: flex;
+    align-items: center;
+    margin-top: 18%;
+    margin-left: 2%;
+    color: #31302f;
+    }
+
+/*Sidens billeder*/
+
+#Kort{
+    width: 50%;
+    height: auto;
+    }
+
+#Stress{
+    width: 60%;
+    height: auto;
+    margin: 2%;
+    }
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+footer {
+    background-color: #00a4e055;
+    padding: 10px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }
